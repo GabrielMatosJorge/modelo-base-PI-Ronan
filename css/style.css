@@ -4,8 +4,9 @@ body, h1, h2, p, ul, li, a {
 }
 
 body {
+    background: linear-gradient(rgb(3, 2, 88), rgb(158, 12, 12));    
     font-family: "Nunito", Arial, Helvetica, sans-serif;
-    color: #222222;
+    color: #ffffff;
 }
 
 li {
@@ -26,7 +27,7 @@ img {
 }
 
 .superinfo-bg {
-    background: #122ab2;
+    background: #290d8d;
     color: white;
 }
 
@@ -50,7 +51,7 @@ img {
 
 /*MENU*/ 
 .menu-bg {
-    background: #2c70ff;
+    background: #1a152e;
 }
 
 .menu {
@@ -124,7 +125,7 @@ img {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
-    color: #7c7c7c;
+    color: #ffffff;
 }
 
 .sobre-img {
@@ -156,8 +157,8 @@ img {
 
 .produtos-item h2 {
     font-size: 3em;
-    color: #a4a4a4;
-    background: #f7f7f7;
+    color: #4e0764;
+    background: #ffffff;
     padding: 60px 20px;
 }
 
@@ -177,8 +178,8 @@ img {
 /*preço*/
 
 .preco {
-    background: #f7f7f7;
-    padding: 60px;
+    background: linear-gradient(rgba(52, 1, 53, 0.726), rgb(44, 12, 158));    
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -186,14 +187,14 @@ img {
 
 .preco-item {
     flex: 1 1 260px;
-    border: 4px solid white;
+    border: 4px solid rgba(255, 255, 255, 0.918);
     padding: 20px;
     margin: 10px;
 }
 
 .preco-item h2 {
     font-size: 3em;
-    color: #a4a4a4;
+    color: #fafafad5;
     text-align: center;
     margin-top: 20px;
 }
@@ -206,12 +207,18 @@ img {
     text-align: center;
     font-weight: bold;
     padding: 10px 0 5px 0;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    border-top: 4px solid rgb(200, 255, 0);
+    border-bottom: 4px solid rgb(208, 255, 0);
 }
 
 .preco-item sup {
     font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.preco-item span{
+    color:rgb(235, 235, 235);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .preco-item ul {
@@ -219,13 +226,14 @@ img {
     margin: 20px auto;
     font-size: 1.25em;
     font-style: italic;
-    color: #7c7c7c;
+    color: #ebebeb;
 }
 
 .preco-item li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 
@@ -234,7 +242,7 @@ img {
     display: block;
     width: 6px;
     height: 6px;
-    background: #2c70ff;
+    background: #ffffff;
     border-radius: 50%;
 }
 
@@ -243,7 +251,7 @@ img {
     display: block;
     margin: 20px auto;
     border: 4px solid;
-    color: #222222;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.25em;
@@ -271,6 +279,7 @@ img {
     margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
+    background: #0c0d6370;
 }
 
 .qualidade-item {
@@ -280,7 +289,7 @@ img {
 
 .qualidade-item h2 {
     font-size: 2.25em;
-    color:#a4a4a4;
+    color:#ffffff;
     margin-bottom: 20px;
 }
 
@@ -290,7 +299,7 @@ img {
     width: 8px;
     height: 30px;
     margin-right: 10px;
-    background: #122ab2;
+    background: #001694;
 }
 
 .qualidade-item:nth-of-type(3n+1) h2::before {
@@ -308,13 +317,13 @@ img {
     .qualidade-item p {
         font-size: 1.25em;
         line-height: 1.4;
-        color:#7c7c7c;
+        color:#ffffff;
     }
 
     /*Newsletter*/
 
 .newsletter {
-    background: #f7f7f7;
+    background: linear-gradient( rgba(20, 10, 168, 0.63), rgba(92, 4, 150, 0.589));
     padding: 60px calc((100% - 960px) / 2 );
     display: flex;
     flex-wrap: wrap;
@@ -327,14 +336,14 @@ img {
 
 .newsletter-info h1 {
     font-size: 3em;
-    color: lightseagreen;
+    color: rgba(250, 250, 250, 0.781);
 }
 
 .newsletter-info p {
     font-size: 1.25em;
     font-style: italic;
     max-width: 230px;
-    color: #7c7c7c;
+    color: #f1f1f1;
     margin-bottom: 10px;
 }
 
@@ -349,7 +358,7 @@ img {
 .newsletter-form input {
     flex: 3 1 200px;
     font-size: 1.25em;
-    color: #7c7c7c;
+    color: #ffffff;
     font-style: italic;
     font-family: "Nunito", Arial, Helvetica, sans-serif; 
     border: 4px solid #2c70ff;
@@ -366,7 +375,7 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     background: #2c70ff;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0px;
     cursor: pointer;
     border: 0px;
@@ -383,14 +392,14 @@ img {
 
 .footer {
     display: flex;
-    background: #2c70ff;
-    height: 200px;
+    background: linear-gradient(rgba(0, 10, 145, 0.452), rgba(118, 9, 151, 0.5));
+    height: 50px;
     align-items: center;
 }
 
 .footer p {
     flex: 1;
     text-align: center;
-    font-size: 2.25em;
+    font-size: 1.10em;
     color: white; 
 }
